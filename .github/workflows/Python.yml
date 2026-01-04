@@ -16,8 +16,8 @@ jobs:
       # 1️⃣ Checkout the repository
       - uses: actions/checkout@v3
 
-      # 2️⃣ Update the timestamp file
-      - name: Update timestamp
+      
+      - name: Refactor python script
         run: |
           TIMESTAMP_FILE="updates.txt"
 
